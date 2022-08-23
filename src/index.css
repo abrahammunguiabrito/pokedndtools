@@ -86,13 +86,21 @@
     m-0 
     w-full h-screen
     overflow-hidden
+    justify-center
+    text-center
   }
 
   .content-list {
     @apply flex flex-col items-center 
-    h-full w-full 
+    h-full w-64 
     mt-0 ml-0 mx-auto px-0 pb-12 
     overflow-y-scroll;
+  }
+  .post {
+    @apply w-full
+    flex flex-row items-center justify-evenly
+    py-4 px-8 m-0
+    cursor-pointer;
   }
   .form-label{
     @apply block text-lg text-white
